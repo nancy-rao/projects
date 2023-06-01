@@ -1,0 +1,8 @@
+# thermostat
+in this project there are three variables i have used -- desired_temp, normal_temp, current_temp.
+desired_temp is the temperature user want from thermostat
+normal_temp is the temp where no change is needed. hence no need to turn on the heating or cooling system.
+current_temp is the temperature on which thermostat is currently working.
+# working
+-- If the desired temperature is lower than normal temp ,it means we have to turn on the cooling system and current temp will decrease to desired temp.
+-- If the desired temperature is greater than normal temp ,it means we have to turn on the heating system and current temp will increase to desired temp.
